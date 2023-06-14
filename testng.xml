@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="May sprint Cases" thread-count="1" parallel="classes">
+    <parameter name="PlatformType" value="android"/>
+    <parameter name="DeviceName" value="emulator-5554"/>
+    <parameter name="PlatformVersion" value="11.0"/>
+    <!--    <parameter name="AppActivity" value="com.isbasi.ui.activity.app.SplashActivity"/>-->
+    <parameter name="AppPackage" value="com.mytatva.patient"/>
+    <parameter name="AppName" value="MyTatva_UAT_05-04-2023_03-04.apk"/>
+
+
+    <test name="May Sprint 1">
+        <classes>
+            <class name="MyTatva.MAySprint1.MTP175"></class>
+            <class name="MyTatva.MAySprint1.MTP921"></class>
+            <class name="MyTatva.MAySprint1.MTP1245"></class>
+            <class name="MyTatva.MAySprint1.MTP825"></class>
+            <class name="MyTatva.MAySprint1.MTP911"></class>
+
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->
